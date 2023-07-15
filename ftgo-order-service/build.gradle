@@ -3,9 +3,6 @@ buildscript {
     repositories {
         mavenCentral()
         jcenter()
-        maven {
-            url 'https://repo.spring.io/libs-milestone'
-        }
     }
     dependencies {
         classpath "org.springframework.cloud:spring-cloud-contract-gradle-plugin:$springCloudContractDependenciesVersion"
